@@ -1,0 +1,84 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+#*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.bck
+
+#------------------------#
+#--- Otros --------------#
+##########################
+html/*
+html/*.*
+latex/*
+latex/*.*
+logs
+logs/*
+logs/*.*
+logs/.*
+tmp
+tmp/*
+tmp/*.*
+tmp/.*
+
+#################### mios #####
+*.xls
+*.xlsx
+src/configuration.php
+*/configuration.php
+*.pdf
+*.komodoproject
+*.sublime-project
+*.sublime-workspace
+srcsql/*.index.anterior
+srcsql/*.index
+srcsql/functions.index
+documents/diccionario_claves_sacel2.txt
+documents/special_codes.txt
+myconfig.yml
+.tags
+.tags_swap
+node_modules
+srcsql/test/**/*.js
+dist
+tests
+web/changelogs.html
+procesos/deploy_sacelphp/.sacel*
+*.save
+/nbproject
+**/.readme
+.bitacora
+.bdsconf
+.dbdefault
