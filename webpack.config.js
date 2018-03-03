@@ -16,7 +16,7 @@ module.exports = {
 	module: {
 		rules: [
 			{ 
-				test: /\.jsx?$/, 
+				test: /\.jsx?|\.js$/, 
 				loader: 'babel-loader', 
 				exclude: /node_modules/ 
 			} /*,
@@ -27,8 +27,7 @@ module.exports = {
 		]
 	},
     devServer: {
-        contentBase: BUILD_DIR,
-        compress: false
+        contentBase: BUILD_DIR
     }
 };
 

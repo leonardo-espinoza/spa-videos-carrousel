@@ -1,5 +1,6 @@
 import { combineReducers } from 'redux'
-//import { PERFORM_ACTION } from '../actions/actions'
+
+import getVideos from './getVideosReducer'
 
 
 function nullReducer(state, action) { 
@@ -54,7 +55,8 @@ function asyncStates(state, action) {
 
 
 const rootReducer = combineReducers({
-  nullReducer: nullReducer
+	//nullReducer
+	getVideos
 })
 
 export default rootReducer;
