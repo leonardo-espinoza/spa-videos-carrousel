@@ -26,6 +26,9 @@ module.exports = {
             } */
 		]
 	},
+/*	externals: {
+		Config: [ './config.json' ]
+	},*/
     devServer: {
         contentBase: BUILD_DIR
     }
