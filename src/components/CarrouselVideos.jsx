@@ -2,6 +2,8 @@ import React from 'react';
 import { connect } from 'react-redux'
 import PropTypes from 'prop-types'
 
+import PeliculaPresentacion from './PeliculaPresentacion'
+
 const mapStateToProps = (state) => {
 	return {
 		procesamiento: {
@@ -32,7 +34,7 @@ const CarrouselVideos = ({ procesamiento: { enProceso, ultimoProcesoOk, ultimoPr
 		return (
 		<div className="carrousel">
 			{peliculas.map((pelicula, idx) => 
-				<div className="video" key={idx}>{pelicula.title}</div>
+				<PeliculaPresentacion key={idx} data={pelicula} />
 			)}
 		</div>
 		)

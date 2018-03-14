@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux'
 import PropTypes from 'prop-types'
 
-require('../../src/web/peliculasStyles.css') 
+require('../web/peliculasStyles.css') 
 
 import { getVideos } from '../actions/actions'
 import CarrouselVideos from './CarrouselVideos'
