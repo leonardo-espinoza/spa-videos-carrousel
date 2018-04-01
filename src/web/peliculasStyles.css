@@ -31,3 +31,23 @@
 	flex: 0 0 auto;
 /*	flex-basis: 214px; */
 }
+
+.video .videoTitle {
+	display: none;
+	color: black;
+	font-family: 'Helvetica Light', Helvetica, Sans;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 22px;
+	margin: 15px;
+	padding: 5px;
+	text-align: center;
+	background-color: rgba(255,255,0,0.5);
+	width: calc(100% - 40px);
+}
+
+.video:hover .videoTitle {
+	display: inline-block;
+}
+
+
